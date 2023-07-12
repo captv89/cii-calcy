@@ -8,20 +8,17 @@
 		inferior), or E (inferior performance level). The rating thresholds become increasingly
 		stringent towards 2030.
 	</p>
-	<br />
 	<p>
 		Starting in 2024, the CII must be calculated and reported to the Data Collection System (DCS)
 		verifier together with the aggregated DCS data for the previous year. The attained annual
 		operational CII and the environmental rating (A to E) will be noted on the DCS Statement of
 		Compliance (SoC), which must be kept on board for five years.
 	</p>
-	<br />
 	<p>
 		The CII is calculated based on the formula: grams of CO2 emitted per cargo-carrying capacity and
 		nautical mile. Correction factors and voyage adjustments can be applied for special design and
 		operational circumstances.
 	</p>
-	<br />
 	<p>
 		Please note that the content has been condensed for brevity and may not include all the details
 		from the original article. For the complete information, refer to the original source on the <a
@@ -29,7 +26,7 @@
 			>DNV website</a
 		>.
 	</p>
-	<br /> 
+
 	Calculate your ship’s CII by clicking the button below.
 	<br /> <br />
 	<a href="/calculate" class="button">Calculate CII</a>
@@ -38,14 +35,17 @@
 <!-- Write in few work about the CII calculation and give a button to redirect to the /calculate -->
 <style>
     .home {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        min-height: 100vh;
-        margin: 0;
-        padding: 0;
-    }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  width: 80%;
+  margin: 0 auto;
+}
+
 
     .button {
         display: inline-block;
