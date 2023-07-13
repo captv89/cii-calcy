@@ -68,7 +68,7 @@
 		console.log(formData);
 
 		// Make the POST request
-		postData('http://localhost:8080/calculate-cii', formData)
+		postData('http://localhost:8181/calculate-cii', formData)
 			.then((data) => {
 				// Handle the response data
 				console.log(data);
